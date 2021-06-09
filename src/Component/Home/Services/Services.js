@@ -41,7 +41,7 @@ const Services = () => {
 
                     {
                         servicesData.map((serv) => 
-                            <div className="col-md-4 text-center">
+                            <div key={serv.id} className="col-md-4 text-center">
                                 <div className="services__content">
                                     <img src={serv.img} alt="" />
                                     <h4>{serv.name}</h4>
