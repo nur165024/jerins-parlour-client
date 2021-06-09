@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from '../ContactForm/ContactForm';
 import Header from '../Header/Header';
 import Professional from '../Professional/Professional';
 import Services from '../Services/Services';
@@ -12,6 +13,7 @@ const Home = () => {
             <Services></Services>
             <Professional></Professional>
             <Testimonials></Testimonials>
+            <ContactForm></ContactForm>
         </>
     );
 };
