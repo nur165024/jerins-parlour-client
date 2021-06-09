@@ -51,6 +51,7 @@ const Services = () => {
                             </div>
                         )
                     }
+                    
                     <div className="col-md-12 text-center">
                         <div className="services__button">
                             <button className="btn btn-button">Explore more</button>
