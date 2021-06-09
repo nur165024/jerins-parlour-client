@@ -14,3 +14,11 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{
 a{
     text-decoration: none;
 }
+.brand-text-color{
+    color: #F63E7B;
+}
+.webSite__title h2{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
