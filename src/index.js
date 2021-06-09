@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// bootstrap
+import 'bootstrap/dist/css/bootstrap.css';
+// google font
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"></link>
 
 ReactDOM.render(
   <React.StrictMode>

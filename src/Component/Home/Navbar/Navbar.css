@@ -1,0 +1,13 @@
+#navbar__part{
+    height: 90px;
+    width: 100%;
+}
+#navbarContent .navbar-nav{
+    margin-left: auto !important; 
+}
+#navbarContent .navbar-nav li a{
+    padding: 10px;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
