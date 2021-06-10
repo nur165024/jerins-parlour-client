@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactForm from '../ContactForm/ContactForm';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Professional from '../Professional/Professional';
 import Services from '../Services/Services';
@@ -14,6 +15,7 @@ const Home = () => {
             <Professional></Professional>
             <Testimonials></Testimonials>
             <ContactForm></ContactForm>
+            <Footer></Footer>
         </>
     );
 };

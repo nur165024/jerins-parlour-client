@@ -1,0 +1,40 @@
+#footer__part{
+    background: #F63E7B;
+    color: #ffffff;
+    padding: 80px 0;
+}
+.footer__text h6{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.footer__title{
+    margin-bottom: 30px;
+}
+.footer__title h3{
+    font-size: 27px;
+    font-weight: 700;
+}
+.footer__link li .quick__link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    transition: ease-in-out 0.4s;
+}
+.footer__link li .quick__link:hover{
+    text-decoration: underline;
+}
+.social__media p{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 25px 0;
+    color: #ddd;
+}
+.social__media ul li{
+    float: left;
+    margin: 0 20px 0 0;
+}
+.social__media ul li a img{
+    height: 20px;
+}

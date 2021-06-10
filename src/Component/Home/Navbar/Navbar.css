@@ -2,8 +2,11 @@
     height: 90px;
     width: 100%;
 }
+#navbar__part .navbar{
+    width: 100%;
+}
 #navbarContent .navbar-nav{
-    margin-left: auto !important; 
+    margin-left: auto !important;
 }
 #navbarContent .navbar-nav li a{
     padding: 10px;
