@@ -1,0 +1,38 @@
+#login__part{
+    width: 100%;
+    height: 600px;
+    transform: translateY(200px);
+}
+.logo__loginPage img{
+    width: 200px;
+    margin-bottom: 50px;
+}
+.btn_login_button{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #C9C9C9 !important;
+    border-radius: 50px !important;
+    margin: 20px 0;
+}
+.btn_login_button img{
+    position: absolute;
+    left: 135px;
+    width: 25px;
+}
+.btn:focus, .btn.focus{
+    box-shadow: none !important;
+    border-color: #F63E7B !important;
+}
+#login__part .card-body{
+    padding: 40px 120px;
+}
+.signup__link{
+    color: #F63E7B;
+}
+.signup__link:hover{
+    color: #F63E7B;
+}
+#login__part .card-body p{
+    font-size: 16px;
+    font-weight: 400;
+}
