@@ -1,0 +1,10 @@
+.login__other{
+    margin: 0 100px;
+}
+.signup__form .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #F63E7B;
+    outline: 0;
+    box-shadow: none;
+}

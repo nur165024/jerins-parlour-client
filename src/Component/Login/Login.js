@@ -22,12 +22,12 @@ const Login = () => {
                             <div class="card-body">
                                 <h3 class="card-title">Login With</h3>
                                 <form onSubmit={handleSubmit}>
-                                    <button type="submit" class="btn btn-block btn_login_button">
+                                    <Link to="#" class="btn btn-block btn__button">
                                         <img src={googleLogo} alt="google logo" />
                                         Contiune with Google
-                                    </button>
+                                    </Link>
                                 </form>
-                                <p class="card-text">Don't have an account? <Link className="signup__link" to='/singup'>Create an account</Link></p>
+                                <p class="card-text">Don't have an account? <Link className="redirect__link" to='/signup'>Create an account</Link></p>
                             </div>
                         </div>
                     </div>
