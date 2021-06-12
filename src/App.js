@@ -5,6 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from '../src/Component/Home/Home/Home';
+import OrderList from './Component/Admin/OrderList/OrderList';
 import Login from './Component/Login/Login';
 import SignUp from './Component/SignUp/SignUp';
 
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/signup">
           <SignUp></SignUp>
+        </Route>
+        <Route path="/admin/order">
+          <OrderList></OrderList>
         </Route>
       </Switch>
     </Router>
