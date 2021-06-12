@@ -7,6 +7,18 @@ body{
     border: 1px solid #F63E7B;
     border-radius: 6px;
 }
+.btn-button-1{
+    background-color: #FFE3E3 !important;
+    color: #FF4545 !important;
+    border: 1px solid #FFE3E3;
+    border-radius: 6px;
+}
+.btn-button-2{
+    background-color: #C6FFE0 !important;
+    color: #009444 !important;
+    border: 1px solid #C6FFE0;
+    border-radius: 6px;
+}
 h1,h2,h3,h4,h5,h6,p,ul,ol{
     padding: 0;
     margin: 0;
