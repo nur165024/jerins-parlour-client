@@ -5,6 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from '../src/Component/Home/Home/Home';
+import AddAdmin from './Component/Admin/AddAdmin/AddAdmin';
 import AddService from './Component/Admin/AddService/AddService';
 import OrderList from './Component/Admin/OrderList/OrderList';
 import Login from './Component/Login/Login';
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route path="/admin/add/service">
           <AddService></AddService>
+        </Route>
+        <Route path="/add/admin">
+          <AddAdmin></AddAdmin>
         </Route>
       </Switch>
     </Router>

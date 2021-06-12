@@ -7,7 +7,7 @@ const OldMenuLink = ({ label, to, activeOnlyWhenExact, icon }) => {
         exact: activeOnlyWhenExact
       });
     return (
-        <Link class={match ? "nav-link link_active" : "nav-link"} to={to}>{icon} {label}</Link>
+        <Link className={match ? "nav-link link_active" : "nav-link"} to={to}>{icon} {label}</Link>
     );
 };
 
