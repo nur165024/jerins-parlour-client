@@ -1,0 +1,7 @@
+#add_service_form .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #F63E7B;
+    outline: 0;
+    box-shadow: none;
+}

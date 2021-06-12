@@ -1,7 +1,11 @@
-#sideBar ul li a{
+#sideBar ul li .nav-link{
     color: #999;
     font-size: 18px;
     font-weight: 600;
+    transition: ease-in .3s;
+}
+#sideBar ul li .nav-link:hover{
+    color: #F63E7B;
 }
 .link_active{
     color: #F63E7B !important;
